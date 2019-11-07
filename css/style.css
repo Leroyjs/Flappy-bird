@@ -1,0 +1,36 @@
+main{
+	height: 512px;
+	width: 288px;
+	border: solid 1px #000;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../img/flappy_bird_bg.png);
+}
+.hero{
+	bottom: 225px;
+	right: 234px;
+	width: 45px;
+	height: 30px;
+	background-image: url(../img/flappy_bird_bird.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+}
+.bTube{
+	height: 245px;
+	width: 53px;
+	background-image: url(../img/flappy_bird_pipeBottom.png);
+	position: absolute;
+	bottom: 0;
+}
+
+.upTube{
+	height: 245px;
+	width: 53px;
+	background-image: url(../img/flappy_bird_pipeUp.png);
+	position: absolute;
+	background-position: bottom;
+	bottom: 360px;
+}
